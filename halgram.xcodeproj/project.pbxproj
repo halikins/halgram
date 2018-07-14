@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5C3B7E20F82E9B004568EF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5C3B7D20F82E9B004568EF /* ProfileViewController.m */; };
+		2C5C3B8120F91767004568EF /* ProfileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5C3B8020F91767004568EF /* ProfileCollectionViewCell.m */; };
+		2C5C3B8420F95852004568EF /* PFUser+ExtendedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5C3B8320F95852004568EF /* PFUser+ExtendedUser.m */; };
 		2C73358D20F4236A00EFAE1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C73358C20F4236A00EFAE1A /* AppDelegate.m */; };
 		2C73359020F4236A00EFAE1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C73358F20F4236A00EFAE1A /* ViewController.m */; };
 		2C73359320F4236A00EFAE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C73359120F4236A00EFAE1A /* Main.storyboard */; };
 		2C73359520F4236B00EFAE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C73359420F4236B00EFAE1A /* Assets.xcassets */; };
 		2C73359820F4236B00EFAE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C73359620F4236B00EFAE1A /* LaunchScreen.storyboard */; };
 		2C73359B20F4236B00EFAE1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C73359A20F4236B00EFAE1A /* main.m */; };
+		2C7335AA20F46C6700EFAE1A /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C7335A920F46C6700EFAE1A /* Billabong.ttf */; };
+		2C7335AD20F47F4700EFAE1A /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7335AC20F47F4700EFAE1A /* FeedViewController.m */; };
+		2C7335B320F538B200EFAE1A /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7335B220F538B200EFAE1A /* ComposeViewController.m */; };
+		2C7335B620F552B700EFAE1A /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7335B520F552B700EFAE1A /* FeedCell.m */; };
+		2C7335BC20F5666E00EFAE1A /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7335BB20F5666E00EFAE1A /* Post.m */; };
+		2CCE6EA820F7DE37008D60DC /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE6EA720F7DE37008D60DC /* DetailsViewController.m */; };
 		6C844A51B3BBF4F3DB1E80A5 /* libPods-halgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0470C1286DF5130F7020055C /* libPods-halgram.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0470C1286DF5130F7020055C /* libPods-halgram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-halgram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C86B73AE009F69CA0BCE978 /* Pods-halgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-halgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-halgram/Pods-halgram.debug.xcconfig"; sourceTree = "<group>"; };
+		2C5C3B7C20F82E9B004568EF /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		2C5C3B7D20F82E9B004568EF /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		2C5C3B7F20F91767004568EF /* ProfileCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileCollectionViewCell.h; sourceTree = "<group>"; };
+		2C5C3B8020F91767004568EF /* ProfileCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileCollectionViewCell.m; sourceTree = "<group>"; };
+		2C5C3B8220F95852004568EF /* PFUser+ExtendedUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PFUser+ExtendedUser.h"; sourceTree = "<group>"; };
+		2C5C3B8320F95852004568EF /* PFUser+ExtendedUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PFUser+ExtendedUser.m"; sourceTree = "<group>"; };
 		2C73358820F4236900EFAE1A /* halgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = halgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C73358B20F4236A00EFAE1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C73358C20F4236A00EFAE1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +44,17 @@
 		2C73359720F4236B00EFAE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C73359920F4236B00EFAE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C73359A20F4236B00EFAE1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C7335A920F46C6700EFAE1A /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
+		2C7335AB20F47F4700EFAE1A /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		2C7335AC20F47F4700EFAE1A /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		2C7335B120F538B200EFAE1A /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		2C7335B220F538B200EFAE1A /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		2C7335B420F552B700EFAE1A /* FeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
+		2C7335B520F552B700EFAE1A /* FeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
+		2C7335BA20F5666E00EFAE1A /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		2C7335BB20F5666E00EFAE1A /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		2CCE6EA620F7DE37008D60DC /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		2CCE6EA720F7DE37008D60DC /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		B2415C8497C6165734FD8926 /* Pods-halgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-halgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-halgram/Pods-halgram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +73,7 @@
 		2C73357F20F4236900EFAE1A = {
 			isa = PBXGroup;
 			children = (
+				2C7335A920F46C6700EFAE1A /* Billabong.ttf */,
 				2C73358A20F4236A00EFAE1A /* halgram */,
 				2C73358920F4236900EFAE1A /* Products */,
 				9E0C6DCBB8CBCEBFA19384BB /* Pods */,
@@ -65,17 +92,49 @@
 		2C73358A20F4236A00EFAE1A /* halgram */ = {
 			isa = PBXGroup;
 			children = (
+				2C7335BA20F5666E00EFAE1A /* Post.h */,
+				2C7335BB20F5666E00EFAE1A /* Post.m */,
+				2CCE6EA220F72463008D60DC /* Cells */,
+				2CCE6EA120F72443008D60DC /* ViewControllers */,
 				2C73358B20F4236A00EFAE1A /* AppDelegate.h */,
 				2C73358C20F4236A00EFAE1A /* AppDelegate.m */,
-				2C73358E20F4236A00EFAE1A /* ViewController.h */,
-				2C73358F20F4236A00EFAE1A /* ViewController.m */,
 				2C73359120F4236A00EFAE1A /* Main.storyboard */,
 				2C73359420F4236B00EFAE1A /* Assets.xcassets */,
-				2C73359620F4236B00EFAE1A /* LaunchScreen.storyboard */,
 				2C73359920F4236B00EFAE1A /* Info.plist */,
 				2C73359A20F4236B00EFAE1A /* main.m */,
 			);
 			path = halgram;
+			sourceTree = "<group>";
+		};
+		2CCE6EA120F72443008D60DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C73358E20F4236A00EFAE1A /* ViewController.h */,
+				2C73358F20F4236A00EFAE1A /* ViewController.m */,
+				2C7335AB20F47F4700EFAE1A /* FeedViewController.h */,
+				2C7335AC20F47F4700EFAE1A /* FeedViewController.m */,
+				2C73359620F4236B00EFAE1A /* LaunchScreen.storyboard */,
+				2C7335B120F538B200EFAE1A /* ComposeViewController.h */,
+				2C7335B220F538B200EFAE1A /* ComposeViewController.m */,
+				2CCE6EA620F7DE37008D60DC /* DetailsViewController.h */,
+				2CCE6EA720F7DE37008D60DC /* DetailsViewController.m */,
+				2C5C3B7C20F82E9B004568EF /* ProfileViewController.h */,
+				2C5C3B7D20F82E9B004568EF /* ProfileViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2CCE6EA220F72463008D60DC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C7335B420F552B700EFAE1A /* FeedCell.h */,
+				2C7335B520F552B700EFAE1A /* FeedCell.m */,
+				2C5C3B7F20F91767004568EF /* ProfileCollectionViewCell.h */,
+				2C5C3B8020F91767004568EF /* ProfileCollectionViewCell.m */,
+				2C5C3B8220F95852004568EF /* PFUser+ExtendedUser.h */,
+				2C5C3B8320F95852004568EF /* PFUser+ExtendedUser.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		9E0C6DCBB8CBCEBFA19384BB /* Pods */ = {
@@ -154,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7335AA20F46C6700EFAE1A /* Billabong.ttf in Resources */,
 				2C73359820F4236B00EFAE1A /* LaunchScreen.storyboard in Resources */,
 				2C73359520F4236B00EFAE1A /* Assets.xcassets in Resources */,
 				2C73359320F4236A00EFAE1A /* Main.storyboard in Resources */,
@@ -170,11 +230,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-halgram/Pods-halgram-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+				"${PODS_ROOT}/ParseUI/ParseUI/Resources/Localization/en.lproj",
+				"${PODS_ROOT}/ParseUI/ParseUI/Resources/Localization/fr.lproj",
+				"${PODS_ROOT}/ParseUI/ParseUI/Resources/Localization/pt-BR.lproj",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt-BR.lproj",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -206,9 +274,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5C3B8120F91767004568EF /* ProfileCollectionViewCell.m in Sources */,
 				2C73359020F4236A00EFAE1A /* ViewController.m in Sources */,
+				2C5C3B7E20F82E9B004568EF /* ProfileViewController.m in Sources */,
 				2C73359B20F4236B00EFAE1A /* main.m in Sources */,
+				2C7335AD20F47F4700EFAE1A /* FeedViewController.m in Sources */,
+				2C7335B620F552B700EFAE1A /* FeedCell.m in Sources */,
+				2C5C3B8420F95852004568EF /* PFUser+ExtendedUser.m in Sources */,
+				2C7335B320F538B200EFAE1A /* ComposeViewController.m in Sources */,
 				2C73358D20F4236A00EFAE1A /* AppDelegate.m in Sources */,
+				2C7335BC20F5666E00EFAE1A /* Post.m in Sources */,
+				2CCE6EA820F7DE37008D60DC /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
